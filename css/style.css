@@ -1,0 +1,344 @@
+/************************
+	BASIC STYLES
+*************************/
+
+body {
+  background:#eaeaea;
+  padding:0; 
+  margin:0;
+}
+
+p {
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size:11px;
+	line-height: 22px;
+	margin-bottom:15px;
+}
+
+h2 {
+	margin:0px 0px 10px 0px;
+  	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	line-height: 22px;
+}
+
+a:link, a:active, a:visited {
+	color:#e10202;
+	text-decoration:none;
+}
+
+
+a:hover {
+	text-decoration:underline;
+}
+
+.clear {
+  clear: both;
+}
+
+#wrapper {
+  width:470px;
+  margin: 0 auto;
+  background:url(../img/lighting.png) no-repeat;
+  padding-top:20px;
+}
+
+/************************
+	HEADER STYLES
+*************************/
+
+#header {
+	background:url(../img/BG_header.png) no-repeat;
+	padding:20px 25px 20px 25px;
+	width:420px;
+	height:77px;
+	margin-bottom:0px;
+}
+
+#avatar {
+	background:#FFF;
+	border:1px solid #c1c1c1;
+	height:72px;
+	width:72px;
+	float:left;
+	padding:7px;
+	display:inline;
+	margin:0px;
+}
+
+#avatar img {
+	border:1px solid #c1c1c1;
+}
+
+#name {
+	float:left;
+	width:250px;
+	margin-left:20px;
+	padding:10px 0px;
+	display:inline;
+}
+
+	#name h1 {
+		margin:10px 0px 0px 0px;
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:30px;
+		line-height: 22px;
+		color:#656565;
+	}
+	
+	#name h3 {
+		margin:0px;
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:14px;
+		line-height:14px;
+		color:#656565;
+	}
+
+/************************
+	NAVIGATION STYLES
+*************************/
+
+ul.navigation {
+	background:url(../img/BG_nav.png) no-repeat;
+	margin-top:0px;
+	width:440px;	
+	padding:7px 15px;
+	height:20px;
+}
+
+ul.navigation li {
+	display:inline;  
+	margin:5px 10px;
+}
+
+ul.navigation li a:link, ul.navigation li a:active, ul.navigation li a:hover, ul.navigation li a:visited {
+	text-decoration: none;
+ 	color: #fff;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:14px;
+	text-transform:uppercase;
+	height:34px;
+}
+
+ul.navigation li a.selected {
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:14px;
+	text-transform:uppercase;
+	border-bottom:1px solid #FFF;	
+}
+
+/************************
+	MAIN STYLES
+*************************/
+
+#datacontent {
+  padding: 20px 10px;
+}
+
+#datacontent .panels {
+	background:url(../img/BG_content.png) repeat-y;
+	width:470px;
+	overflow: hidden;
+	margin:0;
+}
+
+#datacontent .panelsInner {
+  overflow: hidden;
+  zoom:1;
+}
+
+#datacontent .panel {
+  padding:20px;
+}
+
+.content {
+	background:#FFF;
+	border:1px solid #dddddd;
+	padding:15px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+}
+
+.content ul {
+	list-style-image:url(../img/bullet.png);
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size:11px;
+	margin:15px 0px 15px 30px;
+}
+
+.content ul li {
+	margin-bottom:10px;
+}
+
+.no-padding {
+	padding:0px;
+	border:1px solid #dddddd;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+}
+
+/************************
+	SOCIAL STYLES
+*************************/
+
+ul#networks {
+	list-style-image:none;
+	margin:0px;
+}
+
+ul#networks li {
+	background:#fff;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	width:398px;
+	height:48px;
+	margin:0px;
+	padding:11px 15px;
+	border-top:1px solid #ddd;
+	border-right:1px solid #ddd;
+	border-left:1px solid #ddd;	
+}
+
+ul#networks li:hover {
+	background:url(../img/BG_social.png) repeat-x;
+}
+
+ul#networks li a:link, ul#networks li a:active, ul#networks li a:visited {
+	text-decoration:none;
+	color:#656565;
+}
+
+ul#networks li a:hover {
+	text-decoration:none;
+	color:#e10202;
+}
+
+ul#networks li span {
+	font-weight:bold;
+	font-size:14px;
+	line-height:26px;
+}
+
+ul#networks li.first {
+	-moz-border-radius-topleft:10px;
+	-webkit-border-top-left-radius:10px;
+	-moz-border-radius-topright:10px;
+	-webkit-border-top-right-radius:10px;
+	border-top:1px solid #dddddd;
+	border-right:1px solid #dddddd;
+	border-left:1px solid #dddddd;
+}
+
+ul#networks li.last {
+	-moz-border-radius-bottomleft:10px;
+	-webkit-border-bottom-left-radius:10px;
+	-moz-border-radius-bottomright:10px;
+	-webkit-border-bottom-right-radius:10px;
+	border-bottom:1px solid #dddddd;
+}
+
+ul#networks li div.icon {
+	width:48px;
+	height:48px;
+	float:left;
+	display:inline;
+}
+
+ul#networks li div.network {
+	width:330px;
+	height:48px;
+	float:left;
+	margin-left:20px;
+	display:inline;
+}
+	
+/************************
+	PORTFOLIO STYLES
+*************************/	
+	
+ul#portfolio {
+	list-style-image:none;
+	margin:15px 0px;
+}
+
+ul#portfolio li {
+	display:inline;
+}
+
+ul#portfolio li img {
+	margin:5px;
+	border:5px solid #CCC;	
+}
+
+ul#portfolio li img:hover {
+	margin:5px;
+	border:5px solid #999;	
+}
+
+/************************
+	CONTACT STYLES
+*************************/
+
+#contact_info {
+	margin:0px;
+}
+
+#contact_info li {
+	background:#FFF;
+	border-top: 1px solid #ccc;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size:11px;
+	height:16px;
+	padding:7px;
+	vertical-align:top;
+	margin:0px;
+	list-style-image:none;
+}
+
+#contact_info li img {
+	margin-right:15px;
+	vertical-align:middle;
+}
+
+#contact_info li span {
+	vertical-align:middle;
+}
+
+#contact_info li:hover {
+	background:url(../img/BG_contact.png) repeat-x;
+}
+
+#contact_info li span a:link, #contact_info li a:active, #contact_info li a:visited {
+	color:#000;
+	text-decoration:none;
+}
+
+#contact_info li span a:hover {
+	color:#e10202;
+}
+
+/************************
+	BOTTOM STYLES
+*************************/
+
+#bottom {
+	background:url(../img/BG_bottom.png);
+	width:470px;
+	height:25px;
+}
+
+#copyright {
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size:10px;
+	text-align:center;
+	width:470px;
+	color:#666;
+}
+
+

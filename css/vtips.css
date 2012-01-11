@@ -1,0 +1,13 @@
+p#vtip { 
+display: none; 
+position: absolute; 
+padding: 10px; 
+left: 5px; 
+font-size: 0.8em; 
+background-color: #FFF; 
+border: 1px solid #CCC; 
+-moz-border-radius: 5px; 
+-webkit-border-radius: 5px; 
+z-index: 9999 
+}
+
